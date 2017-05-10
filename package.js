@@ -1,7 +1,7 @@
 Package.describe({
   name: "yogiben:admin",
   summary: "A complete admin dashboard solution",
-  version: "1.2.8",
+  version: "1.2.9",
   git: "https://github.com/yogiben/meteor-admin"
 });
 
@@ -17,14 +17,14 @@ Package.on_use(function(api){
     'underscore',
     'reactive-var',
     'check',
-    'aldeed:collection2@2.5.0',
-    'aldeed:autoform@5.5.1',
-    'aldeed:template-extension@4.0.0',
-    'alanning:roles@1.2.13',
+    'aldeed:collection2',
+    'aldeed:autoform',
+    'aldeed:template-extension',
+    'alanning:roles',
     'raix:handlebar-helpers@0.2.5',
     'reywood:publish-composite@1.4.2',
     'momentjs:moment@2.10.6',
-    'aldeed:tabular@1.4.0',
+    'aldeed:tabular',
     'meteorhacks:unblock@1.1.0',
     'zimme:active-route@2.3.2',
     'mfactory:admin-lte@0.0.2'
